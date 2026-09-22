@@ -1,0 +1,6 @@
+# 后端部署依赖（与 pyproject.toml 的 dependencies 保持一致）
+# veFaaS 打包时按 Native Python 3.12 运行时安装
+fastapi>=0.115
+uvicorn[standard]>=0.30
+httpx>=0.27
+pydantic-settings>=2.4

@@ -69,3 +69,15 @@ local_settings.py
 # hellogithub
 *.db
 content*.md
+
+# ---- 本项目补充（AI 面试实训智能体）----
+# Python 虚拟环境与工具缓存
+.venv/
+.ruff_cache/
+.pytest_cache/
+# 环境变量与密钥（示例文件保留跟踪）
+.env
+.env.*
+!.env.example
+# 部署产物
+*.zip
